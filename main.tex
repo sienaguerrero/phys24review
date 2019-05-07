@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{subfiles}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}
+\usepackage{nomencl}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\setlength{\parindent}{4em}
+\makenomenclature
+\graphicspath{{images/}{../images/}}
+ 
+\begin{document}
+
+\title{PHYS24 Review}
+\author{Siena Guerrero}
+\date{Spring 2019}
+\maketitle
+
+\section*{Introduction}
+\subfile{sections/introduction}
+\newpage
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{PHYS24, Spring 2019}
+\lhead{Final Exam Review}
+
+\tableofcontents
+\subfile{sections/nomenclature}
+\newpage
+
+\section{Basic Equations}
+\subfile{sections/basic_equations}
+\newpage
+
+\end{document}
+
